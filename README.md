@@ -1,6 +1,6 @@
 # Preethi Sighavi — Data Intelligence Engineer Portfolio
 
-**Live:** [preethisighavi.github.io](https://preethisighavi.github.io)
+**Live:** [preethisighavi.github.io/Portfolio](https://preethisighavi.github.io/Portfolio/)
 
 M.S. Data Intelligence, SJSU — Graduating Dec 2026. 3+ years in data analytics and ML engineering at TCS, now building AI/ML systems, multimodal models, and production-grade data pipelines.
 
