@@ -1,7 +1,7 @@
 /* ============================================================
    PREETHI SIGHAVI — PORTFOLIO STYLESHEET
-   Concept: "Data Ledger" — warm paper, editorial serif display,
-   monospace data labels, single rust accent, graph-paper grid,
+   Concept: "Data Ledger" — cool paper, editorial serif display,
+   monospace data labels, teal accent scale, graph-paper grid,
    numbered report sections, full-bleed closing slide.
    Structure: Reset → Variables → Base → Layout → Nav →
               Hero → About → Experience → Projects →
@@ -17,21 +17,21 @@
 
 /* ─── CSS VARIABLES ─── */
 :root {
-  /* Colors — warm paper ledger theme */
-  --paper:       #f6f1e6;
-  --paper-alt:   #eee4cf;
-  --paper-deep:  #e6d9bd;
-  --ink:         #211c15;
-  --ink-soft:    #635a49;
-  --ink-faint:   #9b8f78;
-  --rule:        rgba(33, 28, 21, 0.16);
-  --rule-strong: rgba(33, 28, 21, 0.42);
-  --rule-heavy:  #211c15;
+  /* Colors — teal ledger theme */
+  --paper:       #f2f6f5;
+  --paper-alt:   #e4edeb;
+  --paper-deep:  #d3e3e0;
+  --ink:         #074A53;
+  --ink-soft:    #3f6b70;
+  --ink-faint:   #7a9fa1;
+  --rule:        rgba(7, 74, 83, 0.16);
+  --rule-strong: rgba(7, 74, 83, 0.42);
+  --rule-heavy:  #074A53;
 
-  --accent:      #cc4322;
-  --accent-soft: #e7cdb9;
-  --accent-2:    #1f6a54;
-  --amber:       #b5790a;
+  --accent:      #0F7B71;
+  --accent-soft: #62C3B1;
+  --accent-2:    #129987;
+  --amber:       #0A6162;
 
   --card-shadow: 4px 4px 0 var(--ink);
 
@@ -229,7 +229,7 @@ img { max-width: 100%; display: block; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: rgba(246, 241, 230, 0.88);
+  background: rgba(242, 246, 245, 0.88);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--rule);
@@ -237,7 +237,7 @@ img { max-width: 100%; display: block; }
 }
 
 #navbar.scrolled {
-  background: rgba(246, 241, 230, 0.97);
+  background: rgba(242, 246, 245, 0.97);
   border-bottom-color: var(--rule-strong);
 }
 
@@ -345,14 +345,14 @@ img { max-width: 100%; display: block; }
   left: -10%;
   width: 55%;
   height: 70%;
-  background: radial-gradient(ellipse, rgba(204, 67, 34, 0.10) 0%, transparent 70%);
+  background: radial-gradient(ellipse, rgba(15, 123, 113, 0.10) 0%, transparent 70%);
 }
 .hero-glow--right {
   bottom: -10%;
   right: -5%;
   width: 45%;
   height: 60%;
-  background: radial-gradient(ellipse, rgba(31, 106, 84, 0.09) 0%, transparent 70%);
+  background: radial-gradient(ellipse, rgba(98, 195, 177, 0.09) 0%, transparent 70%);
 }
 
 .hero-inner {
@@ -871,7 +871,7 @@ img { max-width: 100%; display: block; }
 }
 
 #contact .section-label { color: var(--accent); }
-#contact .label-num { border-color: rgba(246, 241, 230, 0.35); color: var(--paper); }
+#contact .label-num { border-color: rgba(242, 246, 245, 0.35); color: var(--paper); }
 
 .contact-card {
   background: transparent;
@@ -889,7 +889,7 @@ img { max-width: 100%; display: block; }
   left: 60%;
   width: 600px;
   height: 400px;
-  background: radial-gradient(ellipse, rgba(204, 67, 34, 0.18) 0%, transparent 70%);
+  background: radial-gradient(ellipse, rgba(15, 123, 113, 0.18) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -903,7 +903,7 @@ img { max-width: 100%; display: block; }
 }
 
 .contact-sub {
-  color: rgba(246, 241, 230, 0.72);
+  color: rgba(242, 246, 245, 0.72);
   max-width: 540px;
   margin: 0 0 2.75rem;
   line-height: 1.8;
@@ -931,7 +931,7 @@ img { max-width: 100%; display: block; }
   box-shadow: 6px 6px 0 var(--accent);
 }
 #contact .btn-ghost {
-  border-color: rgba(246, 241, 230, 0.4);
+  border-color: rgba(242, 246, 245, 0.4);
   color: var(--paper);
 }
 #contact .btn-ghost:hover {
@@ -952,7 +952,7 @@ img { max-width: 100%; display: block; }
   align-items: center;
   gap: 0.55rem;
   padding: 0.8rem 1.4rem;
-  border: 1px solid rgba(246, 241, 230, 0.3);
+  border: 1px solid rgba(242, 246, 245, 0.3);
   border-radius: var(--r-md);
   color: var(--paper);
   font-family: var(--font-mono);
@@ -983,7 +983,7 @@ img { max-width: 100%; display: block; }
 }
 
 .footer p {
-  color: rgba(246, 241, 230, 0.55);
+  color: rgba(242, 246, 245, 0.55);
   font-family: var(--font-mono);
   font-size: 0.78rem;
   letter-spacing: 0.02em;
@@ -1071,7 +1071,7 @@ img { max-width: 100%; display: block; }
     top: var(--nav-h);
     left: 0;
     right: 0;
-    background: rgba(246, 241, 230, 0.98);
+    background: rgba(242, 246, 245, 0.98);
     flex-direction: column;
     gap: 0;
     padding: 1rem 0;
