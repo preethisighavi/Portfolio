@@ -63,7 +63,14 @@ html {
 }
 
 body {
-  background: var(--paper);
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(ellipse 900px 700px at 6% -8%, rgba(15, 123, 113, 0.20) 0%, transparent 62%),
+    radial-gradient(ellipse 820px 680px at 98% 12%, rgba(98, 195, 177, 0.20) 0%, transparent 60%),
+    radial-gradient(ellipse 1000px 780px at 45% 55%, rgba(18, 153, 135, 0.12) 0%, transparent 65%),
+    radial-gradient(ellipse 900px 900px at 90% 100%, rgba(7, 74, 83, 0.16) 0%, transparent 60%);
+  background-repeat: no-repeat;
+  background-attachment: fixed, fixed, fixed, fixed;
   color: var(--ink);
   font-family: var(--font-body);
   line-height: 1.65;
@@ -115,7 +122,24 @@ img { max-width: 100%; display: block; }
 }
 
 .section--alt {
-  background: var(--paper-alt);
+  background: transparent;
+}
+
+/* Deliberate ink-density rhythm as you scroll: light → medium → light → deep → darkest */
+#about {
+  background: rgba(242, 246, 245, 0.5);
+}
+
+#experience {
+  background: linear-gradient(180deg, rgba(15, 123, 113, 0.12) 0%, rgba(15, 123, 113, 0.05) 100%);
+}
+
+#projects {
+  background: rgba(242, 246, 245, 0.55);
+}
+
+#skills {
+  background: linear-gradient(180deg, rgba(7, 74, 83, 0.16) 0%, rgba(18, 153, 135, 0.10) 100%);
 }
 
 .section-label {
